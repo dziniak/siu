@@ -1,0 +1,35 @@
+a {
+    color: deeppink;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+.menu a {
+    text-decoration: none;
+}
+.menu li  {
+    list-style: none;
+}
+
+.menu a:hover {
+    color: blue;
+    font-size: 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Подвал прижатие*/
+
+
+
+.forma form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
